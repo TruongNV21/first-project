@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
+}
+
+:root{
+    --color-black: #222222;
+    --color-white: #FFFFFF;
+    --color-text: #555555;
+    --color-primary: #f65e39;
+}
+
+.grid-header{
+    width: 1440px;
+    max-width: calc(100% - 24px);
+    margin: auto;
+}
+
+.grid-content{
+    position: relative;
+    width: 1300px;
+    max-width: calc(100% - 24px);
+    margin: auto;
+}
+
+.mt-42{
+    margin-top: 42px;
+}
+
+.mt-36{
+    margin-top: 36px;
+}
+
+.mb-42{
+    margin-bottom: 42px;
+}
+
+.mb-12{
+    margin-bottom: 12px;
+}
+
+.mb-8{
+    margin-bottom: 8px;
+}
+
+
+.clean{
+    clear: both;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.column-2{
+    width: 50%;
+}
+
+.column-full{
+    width: 100%;
+    padding: 0 8px;
+}
+
+.column-5{
+    width: 20%;
+    padding: 0 8px;
+}
+
+.column-3{
+    width: 33.33333%;
+    padding: 0 8px;
+}
+
+.column-4{
+    width: 25%;
+    padding: 0 8px;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+        transform: scale(0);
+    }
+
+    to{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Section Title */
+.content-section-title h1{
+    font-size: 2.8rem;
+    line-height: initial;
+    font-weight: bold;
+}
+
+.content-section-title p{
+    font-size: 1.6rem;
+    color: #555;
+}
